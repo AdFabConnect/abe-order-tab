@@ -8,11 +8,11 @@ var hooks = {
   	tabOrder = false;
   	if(hasEditor){
   		for (var i = 0; i < hasEditor.length; i++) {
-  			if(abe.getAttr(hasEditor[i], 'key') === 'ordertab'){
+  			if(abe.cmsData.regex.getAttr(hasEditor[i], 'key') === 'ordertab'){
   				var rex = new RegExp(hasEditor[i].replace(/\"/g, '\\"').replace(/\'/g, "\\'").replace('[', '\\[').replace(']', '\\]'));
   				
 				  text = text.replace(rex, '')
-				  tabOrder = JSON.parse(abe.getAttr(hasEditor[i], 'source'))
+				  tabOrder = JSON.parse(abe.cmsData.regex.getAttr(hasEditor[i], 'source'))
 				  break;
   			}
   		}
