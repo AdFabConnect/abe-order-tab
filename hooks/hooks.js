@@ -20,7 +20,7 @@ var hooks = {
     
     return text;
   },
-  afterEditorFormBlocks: function afterEditorFormBlocks(blocks, json, abe) {
+  afterEditorFormBlocks: function afterEditorFormBlocks(blocks, json, text, abe) {
     var orderedBlock = {}
 
   	if(tabOrder){
