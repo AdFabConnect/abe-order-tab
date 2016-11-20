@@ -1,0 +1,26 @@
+{
+  "name": "abe-order-tab",
+  "version": "1.0.0",
+  "description": "Order your Abe editor tabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdFabConnect/abe-order-tab.git"
+  },
+  "keywords": [
+    "abe",
+    "plugin",
+    "cms",
+    "order",
+    "tabs"
+  ],
+  "author": "Nicolas Labbé",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdFabConnect/abe-order-tab/issues"
+  },
+  "homepage": "https://github.com/AdFabConnect/abe-order-tab#readme"
+}
